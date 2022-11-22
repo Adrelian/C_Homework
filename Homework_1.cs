@@ -18,18 +18,18 @@
 
 //Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-Console.WriteLine("Input first number");
+Console.Write("Input first number ");
 int FirNum = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input second number");
+Console.Write("Input second number ");
 int SecNum = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input third number");
+Console.Write("Input third number ");
 int ThirdNum = Convert.ToInt32(Console.ReadLine());
 
 if (FirNum < SecNum)
 {
     if (SecNum < ThirdNum)
     {
-        Console.WriteLine($"{ },{ }, {ThirdNum}");
+        Console.WriteLine($"Max number is {ThirdNum}");
     }
         
     else
