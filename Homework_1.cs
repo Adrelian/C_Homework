@@ -8,11 +8,11 @@
 
 // if (FirNum < SecNum)
 // {
-//     Console.WriteLine($"{FirNum}, {SecNum} -> max = {SecNum}");
+//     Console.WriteLine($"{FirNum}, {SecNum} -> max = {SecNum}, min = {FirNum}");
 // }
 // else
 // {
-//     Console.WriteLine($"{FirNum}, {SecNum} -> max = {FirNum}");
+//     Console.WriteLine($"{FirNum}, {SecNum} -> max = {FirNum}, min = {SecNum} ");
 // }
 
 
@@ -61,17 +61,17 @@
 
 //Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-Console.Write("Input first number ");
-int Num = Convert.ToInt32(Console.ReadLine());
-int count = 1;
-while (count <= Num)
-{
-    if (count % 2 == 0)
-    { 
-        Console.Write($"{count}, ");
-    }
-    count += 1;
-}
+// Console.Write("Input first number ");
+// int Num = Convert.ToInt32(Console.ReadLine());
+// int count = 1;
+// while (count <= Num)
+// {
+//     if (count % 2 == 0)
+//     { 
+//         Console.Write($"{count}, ");
+//     }
+//     count += 1;
+// }
 
 //Задача 13. 
 
