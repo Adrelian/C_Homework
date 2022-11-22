@@ -18,6 +18,7 @@
 
 //Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
+
 Console.Write("Input first number ");
 int FirNum = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input second number ");
@@ -25,18 +26,22 @@ int SecNum = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input third number ");
 int ThirdNum = Convert.ToInt32(Console.ReadLine());
 
+int max = 0;
 if (FirNum < SecNum)
 {
     if (SecNum < ThirdNum)
     {
-        Console.WriteLine($"Max number is {ThirdNum}");
+        max = ThirdNum; // макс третье число
     }
         
     else
-        Console.WriteLine($"Max number is {SecNum}");
+        max = SecNum; // макс второе число
 }
 else
-Console.WriteLine($"Max number is {FirNum}");
+max = FirNum; // макс первое число
+
+Console.Write($"{FirNum}, {SecNum}, {ThirdNum} - > {max}");
+
 
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
