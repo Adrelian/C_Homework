@@ -45,23 +45,34 @@
 
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
-Console.Write("Input first number ");
-int Num = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input first number ");
+// int Num = Convert.ToInt32(Console.ReadLine());
 
-    if (Num % 2 == 0)
-        Console.Write($"{Num} -> чётное");
-    else
-        Console.Write($"{Num} -> нечётное");
-    Num += 1;
+// if (Num % 2 == 0)
+// {
+//     Console.Write($"{Num} -> чётное");
+// }   
+// else
+// {
+//     Console.Write($"{Num} -> нечётное");
+// }
+// Num += 1;        
+    
 
 //Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-// Console.WriteLine("Input first number");
-// int Num = Convert.ToInt32(Console.ReadLine());
-// int count = 1;
-// while (count <= Num)
-// {
-//     if (count % 2 == 0)
-//         Console.WriteLine(count);
-//     count += 1;
-// }
+Console.Write("Input first number ");
+int Num = Convert.ToInt32(Console.ReadLine());
+int count = 1;
+while (count <= Num)
+{
+    if (count % 2 == 0)
+    { 
+        Console.Write($"{count}, ");
+    }
+    count += 1;
+}
+
+//Задача 13. 
+
+// Console.WriteLine(457%10);
